@@ -1,10 +1,11 @@
 ﻿**Chuẩn lập trình**
 <ul>
-Mỗi dự án có một chuẩn lập trình riêng để phù hợp với dự án đó.
+Chuẩn lập trình của dự án sẽ dựa vào đề tài dự án hoặc do nhà thầu yêu cầu.
+Dự án chúng tôi sẽ dùng phần mềm:Visual studio 2012,SQL server 2012, github desktop
 </ul>
 Mã nguồn
 <ul>
-Mã nguồn được tổ chức theo 3 lớp:GUI,BLL,DAL,DTO
+Mã nguồn được tổ chức theo 3 lớp:
 Lớp đầu tiên: Giao diện cho dự án
 Lớp thứ hai: business logic layer
 Lớp thứ ba: source code cho dự án
