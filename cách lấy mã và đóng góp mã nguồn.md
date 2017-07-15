@@ -5,11 +5,11 @@ Phần mềm của công ty chúng tôi tạo ra nhằm đáp ứng nhu cầu ch
 Công ty chúng tôi luôn luôn muốn dịch vụ cho thuê này phát triển mạnh mẽ trong thời gian tới.Nên luôn tạo điều kiện tốt nhất cho các bạn 
 muốn làm việc hoặc chung tay phát triển phần mềm này một cách tốt nhất.
 </ul>
-**Cách lấy mã**
+Cách lấy mã
 <ul>
 Vào trang github:https://github.com/manguonmonhom10/baitaplon
 </ul>
-**Cách đóng góp mã nguồn**
+Cách đóng góp mã nguồn
 <ul>
 Khi bạn lấy dữ liệu về máy thì hãy lưu một nơi bạn có thể tìm thấy nó.Đọc các chỉ dẫn rõ ràng về các điều khoản có trong dự án
 Bạn hãy cài các phần mềm: visual studio 2012, sql server 2012, github desktop,và tạo tài khoản github trên trang web:github.com
