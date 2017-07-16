@@ -20,7 +20,7 @@ namespace DataAccess
 
 
         //tao getsset
-        public void setMaDK(string hoten)
+        public void setHoTen(string hoten)
         {
             this.HoTen = hoten;
         }
@@ -101,13 +101,13 @@ namespace DataAccess
             }
         }
         // lay thong tin cua mot phong nao do bang id cua no
-        public DataTable getTableById(int idKH)
+        public DataTable getTableById(int idkhachhang)
         {
             SqlConnection con = Config.getConnect();
             DataTable dt = new DataTable();
             if (con.State == ConnectionState.Closed)
                 con.Open();// mo ket noi sql
-            string sqlstr = "Select * from KhachHang where MaKH=" + idKH;
+            string sqlstr = "Select * from KhachHang where HoTen=" + idkhachhang;
             SqlCommand cmd = new SqlCommand(sqlstr, con);
             try
             {
@@ -123,13 +123,13 @@ namespace DataAccess
             }
         }
 
-        public int themkhachhang(khachhang kh)
+        public int themkhachhang(khachhang ph)
         {
             SqlConnection con = Config.getConnect();
             DataTable dt = new DataTable();
             if (con.State == ConnectionState.Closed)
                 con.Open();// mo ket noi sql
-            string sqlstr = "INSERT INTO KhachHang values ('" + kh.getHoTen() + "', '" + kh.getDiaChi() + "', '" + kh.getSDT() + "','" + kh.getMaPhong() + "','" + kh.getNgayThue() + "','" + kh.getNgayTra() + "')";
+            string sqlstr = "INSERT INTO KhachHang values ('" + ph.getHoTen() + "', '" + ph.getDiaChi() + "', '" + ph.getSDT() + "','" + ph.getMaPhong() + "','" +ph.getNgayThue() + "','" + ph.getNgayTra() + "')";
             SqlCommand cmd = new SqlCommand(sqlstr, con);
             try
             {
@@ -147,13 +147,12 @@ namespace DataAccess
         public int xoakhachhang(khachhang kh)
         {
 
-            //string sqlstr = " delete Phong where MaPhong = '" + ph.getMaPhong + "' ";
-            //cmd.ExcuteNonQuery(sqlstr);
+           
             SqlConnection con = Config.getConnect();
             DataTable dt = new DataTable();
             if (con.State == ConnectionState.Closed)
                 con.Open();// mo ket noi sql
-            string sqlstr = "delete Khachhang where MaPhong = '" + kh.getMaPhong() + "' ";
+            string sqlstr = "delete Khachhang where HoTen = '" + kh.getHoTen() + "' ";
             SqlCommand cmd = new SqlCommand(sqlstr, con);
             try
             {
@@ -174,7 +173,7 @@ namespace DataAccess
             DataTable dt = new DataTable();
             if (con.State == ConnectionState.Closed)
                 con.Open();// mo ket noi sql
-            string sqlstr = "update KhachHang set DiaChi = '" + kh.getDiaChi() + "',SDT = " + kh.getSDT() + ",MaPhong = '" + kh.getMaPhong() + "',NgayThue = '" + kh.getNgayThue() + "',NgayTra = '" + kh.getNgayTra() + "' where HoTen = '" + kh.getHoTen() + "'";
+            string sqlstr = "update KhachHang set DiaChi = '" + kh.getDiaChi() + "',SDT ='" + kh.getSDT() + "',NgayThue = " + kh.getNgayThue() + ",NgayTra = " + kh.getNgayTra() + " where HoTen LIKE N'%" + kh.getHoTen() + "%' and MaPhong = '"+kh.getMaPhong() + "'";
             SqlCommand cmd = new SqlCommand(sqlstr, con);
             try
             {
