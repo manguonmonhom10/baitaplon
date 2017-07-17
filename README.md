@@ -35,7 +35,7 @@ Bản sao của Phần mềm, và cho phép xử lý để có Phần mềm Trì
 Thông báo bản quyền ở trên và thông báo cho phép sẽ được bao gồm trong tất cả
 Bản sao hoặc phần quan trọng của Phần mềm.
 
-PHẦN MÊM ĐƯỢC CUNG CẤP "NHƯ LÀ", KHÔNG CÓ BẤT K WAR BẢO ĐẢM NÀO, RÕ RÀNG HAY
+PHẦN MÊM ĐƯỢC CUNG CẤP "NHƯ LÀ", KHÔNG CÓ BẤT KÌ WAR BẢO ĐẢM NÀO, RÕ RÀNG HAY
 ĐƯỢC DỰ ÁN, BAO GỒM NHƯNG KHÔNG GIỚI HẠN ĐỐI VỚI CÁC BẢO ĐẢM VỀ KHẢ NĂNG BÁN ĐƯỢC,
 PHÙ HỢP CHO MỤC ĐÍCH CỤ THỂ VÀ KHÔNG VI PHẠM. TRONG MỌI TRƯỜNG HỢP KHÔNG
 TÁC GIORS HO ORC CHỦ CẤP BẢN QUYET KHÔNG CHỊU TRÁCH NHIỆM ĐỐI VỚI BẤT K CL KHIẾU NẠI, THIỆT HẠI NÀO KHÁC
