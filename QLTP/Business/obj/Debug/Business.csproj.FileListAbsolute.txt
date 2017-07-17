@@ -1,0 +1,7 @@
+C:\Users\Van Khue\Desktop\QLTP\Business\bin\Debug\Business.dll
+C:\Users\Van Khue\Desktop\QLTP\Business\bin\Debug\Business.pdb
+C:\Users\Van Khue\Desktop\QLTP\Business\bin\Debug\DataAccess.dll
+C:\Users\Van Khue\Desktop\QLTP\Business\bin\Debug\DataAccess.pdb
+C:\Users\Van Khue\Desktop\QLTP\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\Van Khue\Desktop\QLTP\Business\obj\Debug\Business.dll
+C:\Users\Van Khue\Desktop\QLTP\Business\obj\Debug\Business.pdb

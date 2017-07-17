@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLTP", "QLTP\QLTP.csproj", "{3A6376E7-5F5E-4E90-8C98-06E55EFD0804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{4819FC45-C1F7-423B-B8EC-405BF164EF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{88751348-C38F-4B90-9E31-B4838BF2EE1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A6376E7-5F5E-4E90-8C98-06E55EFD0804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6376E7-5F5E-4E90-8C98-06E55EFD0804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6376E7-5F5E-4E90-8C98-06E55EFD0804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6376E7-5F5E-4E90-8C98-06E55EFD0804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4819FC45-C1F7-423B-B8EC-405BF164EF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4819FC45-C1F7-423B-B8EC-405BF164EF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4819FC45-C1F7-423B-B8EC-405BF164EF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4819FC45-C1F7-423B-B8EC-405BF164EF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88751348-C38F-4B90-9E31-B4838BF2EE1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88751348-C38F-4B90-9E31-B4838BF2EE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88751348-C38F-4B90-9E31-B4838BF2EE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88751348-C38F-4B90-9E31-B4838BF2EE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

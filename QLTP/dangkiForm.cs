@@ -60,11 +60,11 @@ namespace QLTP
         {
             int rowIndex = e.RowIndex;
             DataGridViewRow row = dataGridView1.Rows[rowIndex];
-            textBox1.Text = row.Cells[1].Value.ToString();
-            textBox2.Text = row.Cells[0].Value.ToString();
-            textBox3.Text = row.Cells[2].Value.ToString();
-            textBox4.Text = row.Cells[3].Value.ToString();
-            textBox5.Text = row.Cells[4].Value.ToString();
+            textBox1.Text = row.Cells[0].Value.ToString();
+            textBox4.Text = row.Cells[1].Value.ToString();
+            textBox5.Text = row.Cells[2].Value.ToString();
+            textBox2.Text = row.Cells[3].Value.ToString();
+            textBox3.Text = row.Cells[4].Value.ToString();
         }
 
         private void dangkiForm_Load(object sender, EventArgs e)
